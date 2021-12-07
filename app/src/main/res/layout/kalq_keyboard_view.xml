@@ -23,28 +23,32 @@
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="m" />
+                android:text="m"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/b"
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="b" />
+                android:text="b"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/w"
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="w" />
+                android:text="w"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/h"
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="h" />
+                android:text="h"
+                android:onClick="letter"/>
         </TableRow>
 
         <TableRow
@@ -56,7 +60,8 @@
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="p" />
+                android:text="p"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/space"
@@ -72,14 +77,16 @@
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="x" />
+                android:text="x"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/c"
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="c" />
+                android:text="c"
+                android:onClick="letter"/>
 
         </TableRow>
 
@@ -92,28 +99,32 @@
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="r" />
+                android:text="r"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/y"
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="y" />
+                android:text="y"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/s"
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="s" />
+                android:text="s"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/z"
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="z" />
+                android:text="z"
+                android:onClick="letter"/>
         </TableRow>
 
         <TableRow
@@ -125,28 +136,32 @@
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="d" />
+                android:text="d"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/n"
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="n" />
+                android:text="n"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/f"
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="f" />
+                android:text="f"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/v"
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="v" />
+                android:text="v"
+                android:onClick="letter"/>
         </TableRow>
     </TableLayout>
 
@@ -166,21 +181,24 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_margin="1dp"
-                android:text="g" />
+                android:text="g"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/t"
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="t" />
+                android:text="t"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/o"
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="o" />
+                android:text="o"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/j"
@@ -188,7 +206,7 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:text="j"
-                android:clickable="true"
+                android:onClick="letter"
                 />
         </TableRow>
 
@@ -201,14 +219,16 @@
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="i" />
+                android:text="i"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/e"
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="e" />
+                android:text="e"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/space2"
@@ -223,7 +243,8 @@
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="u" />
+                android:text="u"
+                android:onClick="letter"/>
 
         </TableRow>
 
@@ -236,28 +257,32 @@
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="k" />
+                android:text="k"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/a"
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="a" />
+                android:text="a"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/l"
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="l" />
+                android:text="l"
+                android:onClick="letter"/>
 
             <Button
                 android:id="@+id/q"
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="q" />
+                android:text="q"
+                android:onClick="letter"/>
         </TableRow>
 
         <TableRow
