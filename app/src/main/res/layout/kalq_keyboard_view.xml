@@ -11,7 +11,8 @@
         android:layout_width="258dp"
         android:layout_height="258dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/right">
 
         <TableRow
             android:layout_width="match_parent"
@@ -62,7 +63,9 @@
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="" />
+                android:text=""
+                android:onClick="space"
+                />
 
             <Button
                 android:id="@+id/x"
@@ -184,7 +187,9 @@
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="j" />
+                android:text="j"
+                android:clickable="true"
+                />
         </TableRow>
 
         <TableRow
@@ -210,7 +215,8 @@
                 android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text="" />
+                android:text=""
+                android:onClick="space"/>
 
             <Button
                 android:id="@+id/u"
@@ -263,14 +269,16 @@
                 android:layout_span="2"
                 android:layout_margin="1dp"
                 android:layout_height="62dp"
-                android:text="del" />
+                android:text="del"
+                android:onClick="delete"/>
 
             <Button
                 android:id="@+id/done"
                 android:layout_span="2"
                 android:layout_margin="1dp"
                 android:layout_height="62dp"
-                android:text="done" />
+                android:text="done"
+                android:onClick="enter"/>
         </TableRow>
     </TableLayout>
 
