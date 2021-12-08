@@ -295,7 +295,7 @@
                 android:layout_margin="1dp"
                 android:layout_height="62dp"
                 android:text="del"
-                android:onClick="delete"/>
+                />
 
             <Button
                 android:id="@+id/done"
