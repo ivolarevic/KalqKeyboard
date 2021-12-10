@@ -8,6 +8,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputConnection;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.constraintlayout.widget.ConstraintLayout;
 
@@ -29,7 +30,7 @@ public class MyInputMethodService extends InputMethodService {
     @Override
     public View onCreateInputView() {
         kalqLayout = (ConstraintLayout) getLayoutInflater().inflate(R.layout.kalq_keyboard_view, null);
-        Button delete = kalqLayout.findViewById(R.id.del);
+        ImageButton delete = kalqLayout.findViewById(R.id.del);
 
         delete.setOnTouchListener(new View.OnTouchListener() {
             @Override
@@ -45,7 +46,6 @@ public class MyInputMethodService extends InputMethodService {
                             public void run() {
                                 long time = 800;
                                 while (flag) {
-
                                     CharSequence selectedText = ic.getSelectedText(0);
                                     if (TextUtils.isEmpty(selectedText)) {
                                         ic.deleteSurroundingText(1, 0);

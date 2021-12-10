@@ -3,9 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/kalq/app/src/main/res/layout/activity_main.xml" value="0.18" />
-        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/kalq/app/src/main/res/layout/kalq_keyboard_view.xml" value="0.3494791666666667" />
-        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/kalq/app/src/main/res/xml/method.xml" value="0.15390625" />
+        <entry key="..\:/Users/Andrea/StudioProjects/KalqKeyboard/app/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml" value="0.41328125" />
+        <entry key="..\:/Users/Andrea/StudioProjects/KalqKeyboard/app/src/main/res/drawable/ic_baseline_keyboard_return_24.xml" value="0.41328125" />
+        <entry key="..\:/Users/Andrea/StudioProjects/KalqKeyboard/app/src/main/res/drawable/ic_baseline_space_bar_24.xml" value="0.41328125" />
+        <entry key="..\:/Users/Andrea/StudioProjects/KalqKeyboard/app/src/main/res/drawable/ripple.xml" value="0.41328125" />
+        <entry key="..\:/Users/Andrea/StudioProjects/KalqKeyboard/app/src/main/res/drawable/ripple_pink.xml" value="0.41328125" />
+        <entry key="..\:/Users/Andrea/StudioProjects/KalqKeyboard/app/src/main/res/drawable/ripple_white.xml" value="0.296875" />
+        <entry key="..\:/Users/Andrea/StudioProjects/KalqKeyboard/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/Users/Andrea/StudioProjects/KalqKeyboard/app/src/main/res/layout/kalq_keyboard_view.xml" value="0.8" />
       </map>
     </option>
   </component>
