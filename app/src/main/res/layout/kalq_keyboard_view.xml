@@ -75,14 +75,14 @@
 
             <ImageButton
                 android:id="@+id/space"
-                android:background="@drawable/ripple_white"
-                android:src="@drawable/ic_baseline_space_bar_24"
-                android:layout_margin="1dp"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:text=""
+                android:layout_margin="1dp"
+                android:background="@drawable/ripple_white"
                 android:onClick="space"
-                />
+                android:src="@drawable/ic_baseline_space_bar_24"
+                android:tint="@color/pink"
+                tools:ignore="SpeakableTextPresentCheck,UseAppTint"/>
 
             <Button
                 android:id="@+id/x"
@@ -275,14 +275,14 @@
 
             <ImageButton
                 android:id="@+id/space2"
-                android:textColor="@color/darkgrey"
-                android:background="@drawable/ripple_white"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_margin="1dp"
+                android:background="@drawable/ripple_white"
                 android:onClick="space"
                 android:src="@drawable/ic_baseline_space_bar_24"
-                android:text="" />
+                android:tint="@color/pink"
+                tools:ignore="SpeakableTextPresentCheck,UseAppTint" />
 
             <Button
                 android:id="@+id/u"
@@ -347,22 +347,24 @@
 
             <ImageButton
                 android:id="@+id/del"
-                android:background="@drawable/ripple"
                 android:layout_height="62dp"
                 android:layout_margin="1dp"
                 android:layout_span="2"
+                android:background="@drawable/ripple"
                 android:src="@drawable/ic_baseline_keyboard_backspace_24"
-                android:text="del" />
+                android:tint="@color/grey"
+                tools:ignore="SpeakableTextPresentCheck,UseAppTint"/>
 
             <ImageButton
                 android:id="@+id/done"
-                android:background="@drawable/ripple_pink"
                 android:layout_height="62dp"
                 android:layout_margin="1dp"
                 android:layout_span="2"
+                android:background="@drawable/ripple_pink"
                 android:onClick="enter"
                 android:src="@drawable/ic_baseline_keyboard_return_24"
-                android:text="done" />
+                android:tint="@color/white"
+                tools:ignore="SpeakableTextPresentCheck,UseAppTint"/>
         </TableRow>
     </TableLayout>
 
