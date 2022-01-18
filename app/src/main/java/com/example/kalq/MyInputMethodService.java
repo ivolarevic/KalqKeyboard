@@ -29,7 +29,30 @@ public class MyInputMethodService extends InputMethodService {
 
     @Override
     public View onCreateInputView() {
+        return null;
+    }
+
+    @Override
+    public void onWindowShown() {
+        super.onWindowShown();
+        setCandidatesViewShown(true);
+    }
+
+    @Override
+    public View onCreateCandidatesView() {
         kalqLayout = (ConstraintLayout) getLayoutInflater().inflate(R.layout.kalq_keyboard_view, null);
+        initListeners();
+
+        return kalqLayout;
+    }
+
+
+    @Override
+    public boolean onEvaluateFullscreenMode() {
+        return false;
+    }
+
+    public void initListeners() {
         ImageButton delete = kalqLayout.findViewById(R.id.del);
 
         delete.setOnTouchListener(new View.OnTouchListener() {
@@ -74,8 +97,6 @@ public class MyInputMethodService extends InputMethodService {
                 return false;
             }
         });
-
-        return kalqLayout;
     }
 
     public void space(View v){
